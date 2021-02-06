@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="funcionalidade.js"></script>
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+    <title>01001111 01101001 00100001 </title>
+</head>
+<body>
+    <h1>InteraBin</h1>
+
+    <p>InteraBin é um projeto onde você consegue visualizar os números binários, basta clicar e arranja-los da forma que você preferir. </p>
+    <p style="color: yellow">O resultado será mostrado embaixo</p>
+
+    <div>
+        <ul>
+            <li id="bin0" onclick="changeColor('bin0')">0</li>
+            <li id="bin1" onclick="changeColor('bin1')">0</li>
+            <li id="bin2" onclick="changeColor('bin2')">0</li>
+            <li id="bin3" onclick="changeColor('bin3')">0</li>
+            <li id="bin4" onclick="changeColor('bin4')">0</li>
+            <li id="bin5" onclick="changeColor('bin5')">0</li>
+            <li id="bin6" onclick="changeColor('bin6')">0</li>
+            <li id="bin7" onclick="changeColor('bin7')">0</li>
+        </ul>
+    </div>
+    <p id="resultadoNumero" class="resultado">0</p>
+    <p id="resultadoLetra" class="resultado">...</p>
+</body>
+</html>
